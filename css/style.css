@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#navElem {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(126, 104, 6);
+}
+
+
+
+.logo {
+    width: 50px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 8px;
+    color: #fff;
+
+}
+
+.animatsonElem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.animatson {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248, 248, 248);
+    animation-name: milad;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes milad {
+    0% {
+        border-radius: 3px;
+        background-color: green;
+    }
+
+    25% {
+        background-color: #04db6f;
+    }
+
+    50% {
+
+        background-color: #04ac87;
+    }
+
+    75% {
+        background-color: #052ba8;
+    }
+
+    100% {
+        background-color: green;
+        border-radius: 3px;
+        transform: rotate(360deg);
+
+    }
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(155, 161, 149);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vast {
+    display: flex;
+}
+
+.listMeno {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 12px;
+    font-family: tahoma;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.alist {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.alist:hover {
+    color: aqua;
+}
+
+.li {
+    margin-left: 15px;
+}
+
+#span {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spanHover {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(33, 141, 141);
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: none;
+}
+
+.ff {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.vast2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.imjElem {
+    width: 100%;
+
+}
+
+.tetr-vast2 {
+    width: 90%;
+    background-color: #08adb94b;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.uoser {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.paswoord {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+
+}
+
+.lift1 {
+    width: 25%;
+    height: 450px;
+    background-color: brown;
+    margin-top: 50px;
+    border-radius: 50PX;
+}
+
+.uoser-img {
+    width: 300px;
+    height: 450px;
+    background-color: #08adb94b;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.uoser-text {
+    width: 90%;
+    height: 500px;
+    background-color: #8f8d8d7e;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.uoser-text .uoser-text-p,
+.uoser-text-h1,
+.uoser-text-h2 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+
+.uoser-text-p-RE {
+    margin-top: 38px;
+}
+
+.vast2 .tetr,
+.imjElem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uoserimg {
+    width: 300px;
+    height: 450px;
+    background-color: #e3eaeb2c;
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0px 0px 20px 20px #34b8c942;
+}
+
+.img-p {
+    width: 250px;
+    margin-top: 20px;
+
+}
+
+.vast3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.t {
+    height: 30px;
+    display: none;
+    margin-top: 7px;
+    margin-left: 65px;
+}
+
+.z {
+    position: absolute;
+    top: 46px;
+    right: 1px;
+    width: 200px;
+    height: 300px;
+    background-color: #d5c7c7e6;
+    border-radius: 5px;
+    display: none;
+    direction: rtl;
+    z-index: 5;
+    list-style-type: none;
+}
+
+#milad:checked~.label-list>.z >.scroll-list>li {
+    margin-top: 20px;
+    display: flex;
+    transition: all 2s;
+}
+
+#milad:checked~.t>.m {
+    background: transparent;
+    margin: 0;
+}
+
+#milad:checked~.t>.t1 {
+    transform: translateY(10px) rotate(43deg);
+}
+
+#milad:checked~.t>.t4 {
+    transform: translateY(7px) rotate(-43deg);
+    margin: 0;
+}
+
+.t .t1,
+.t2,
+.t3,
+.t4 {
+    width: 35px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 6px;
+    transition: all 1s;
+}
+
+.m {
+    width: 45px;
+}
+
+#milad {
+    visibility: hidden;
+    display: none;
+}
+
+#milad:checked~.label-list>.z {
+    display: block;
+}
+
+.liTest {
+    margin-right: 10px;
+}
+
+.menoCss {
+    width: 100%;
+    /* background-color: rgb(16, 136, 5); */
+    position: absolute;
+    display: flex;
+}
+
+.uoser-text-p-h1-h2 {
+    width: 60%;
+    height: 450px;
+}
+
+.imgRE {
+    margin-top: 10px;
+}
+
+.imj-p {
+    margin-top: 15px;
+}
+
+.aplecisien{
+    margin-left: 10px;
+}.aplecisien:hover{
+    color: green;
+    cursor: pointer;
+}
+.span-aplecisien{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    background-color: #d5c7c7e6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.scroll-list{
+    overflow-y: scroll;
+    height: 268px;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.imjm{
+    width: 100%;
+    height: 600px;
+    animation-name: uoserimg;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* border-radius: 5px; */
+}
+
+@keyframes uoserimg {
+    0% {
+        background :url(/img/at-the-end-of-the-field-the-view-of-the-planets-in-the-sky-among-the-dark-clouds-and-the-filtering-sunlight-wallpaper-2560x1600_7.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    25% {
+        background :url(/img/Jowhareh_galleries_4_poster_35665229-5a27-471f-a9fc-3a98b2d83632.jpeg) no-repeat;
+        background-size: cover;
+    }
+
+    50% {
+        background :url(/img/night-view-of-yellow-black-clouds-that-seem-to-touch-the-ground-beyond-the-grass-field-wallpaper-2880x1800_8.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    75% {
+        background :url(/img/planet-and-silhouette-sci-fi-landscape-wallpaper-1280x768_13.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background :url(/img/scattered-cloudy-sky-snowy-mountains-and-forests-reflection-in-the-magnificent-natural-landscape-wallpaper-2880x1800_8.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .listMeno {
+        display: none;
+    }
+
+    .t,
+    .label-list {
+        display: block !important;
+    }
+
+
+    .vast2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vast3 {
+        width: 100%;
+        height: 32rem;
+        display: flex;
+        flex-flow: row-reverse;
+        align-items: baseline;
+    }
+
+    .uoser-text-p-h1-h2 {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-wrap: break-word;
+        word-break: keep-all;
+        /* background-color: forestgreen; */
+        margin-left: 7px;
+    }
+
+
+    .uoser-text .uoser-text-p,
+    .uoser-text-h1,
+    .uoser-text-h2 {
+        text-align: center;
+        overflow-wrap: break-word;
+        word-break: break-all;
+        /* background-color: brown; */
+        line-height: 6mm;
+    }
+
+    .uoser-text-h1,
+    .uoser-text-h2 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .uoser-img {
+        width: 240px;
+        height: 400px;
+    }
+
+    .img {
+        width: 150px;
+        position: inherit;
+    }
+
+
+}
+
