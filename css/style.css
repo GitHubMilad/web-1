@@ -285,7 +285,7 @@ footer {
     list-style-type: none;
 }
 
-#milad:checked~.label-list>.z >.scroll-list>li {
+#milad:checked~.label-list>.z>.scroll-list>li {
     margin-top: 20px;
     display: flex;
     transition: all 2s;
@@ -293,7 +293,7 @@ footer {
 
 #milad:checked~.t>.m {
     background: transparent;
-    margin: 0;
+    margin-top: 6px;
 }
 
 #milad:checked~.t>.t1 {
@@ -301,7 +301,7 @@ footer {
 }
 
 #milad:checked~.t>.t4 {
-    transform: translateY(7px) rotate(-43deg);
+    transform: translateY(-5px) rotate(-43deg);
     margin: 0;
 }
 
@@ -353,13 +353,16 @@ footer {
     margin-top: 15px;
 }
 
-.aplecisien{
+.aplecisien {
     margin-left: 10px;
-}.aplecisien:hover{
+}
+
+.aplecisien:hover {
     color: green;
     cursor: pointer;
 }
-.span-aplecisien{
+
+.span-aplecisien {
     width: 200px;
     height: 20px;
     display: flex;
@@ -369,7 +372,7 @@ footer {
     border-radius: 2px;
 }
 
-.scroll-list{
+.scroll-list {
     overflow-y: scroll;
     height: 268px;
     background-color: darkred;
@@ -384,7 +387,7 @@ footer {
 
 }
 
-.imjm{
+.imjm {
     width: 100%;
     height: 600px;
     animation-name: uoserimg;
@@ -396,27 +399,27 @@ footer {
 
 @keyframes uoserimg {
     0% {
-        background :url(/img/at-the-end-of-the-field-the-view-of-the-planets-in-the-sky-among-the-dark-clouds-and-the-filtering-sunlight-wallpaper-2560x1600_7.jpg) no-repeat;
+        background: url(/img/at-the-end-of-the-field-the-view-of-the-planets-in-the-sky-among-the-dark-clouds-and-the-filtering-sunlight-wallpaper-2560x1600_7.jpg) no-repeat;
         background-size: cover;
     }
 
     25% {
-        background :url(/img/Jowhareh_galleries_4_poster_35665229-5a27-471f-a9fc-3a98b2d83632.jpeg) no-repeat;
+        background: url(/img/Jowhareh_galleries_4_poster_35665229-5a27-471f-a9fc-3a98b2d83632.jpeg) no-repeat;
         background-size: cover;
     }
 
     50% {
-        background :url(/img/night-view-of-yellow-black-clouds-that-seem-to-touch-the-ground-beyond-the-grass-field-wallpaper-2880x1800_8.jpg) no-repeat;
+        background: url(/img/night-view-of-yellow-black-clouds-that-seem-to-touch-the-ground-beyond-the-grass-field-wallpaper-2880x1800_8.jpg) no-repeat;
         background-size: cover;
     }
 
     75% {
-        background :url(/img/planet-and-silhouette-sci-fi-landscape-wallpaper-1280x768_13.jpg) no-repeat;
+        background: url(/img/planet-and-silhouette-sci-fi-landscape-wallpaper-1280x768_13.jpg) no-repeat;
         background-size: cover;
     }
 
     100% {
-        background :url(/img/scattered-cloudy-sky-snowy-mountains-and-forests-reflection-in-the-magnificent-natural-landscape-wallpaper-2880x1800_8.jpg) no-repeat;
+        background: url(/img/scattered-cloudy-sky-snowy-mountains-and-forests-reflection-in-the-magnificent-natural-landscape-wallpaper-2880x1800_8.jpg) no-repeat;
         background-size: cover;
     }
 }
@@ -496,4 +499,3 @@ footer {
 
 
 }
-
