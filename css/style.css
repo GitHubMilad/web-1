@@ -4,16 +4,11 @@
 
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: black;
-}
-
 #navElem {
     width: 100%;
     height: 45px;
-    background-color: rgb(126, 104, 6);
+    background-color: #eee;
+    border: 0px;
 }
 
 
@@ -27,7 +22,7 @@ body {
     right: 0;
     margin-right: 30px;
     margin-top: 8px;
-    color: #fff;
+    color: black;
 
 }
 
@@ -42,14 +37,15 @@ body {
     height: 20px;
     background-color: rgb(248, 248, 248);
     animation-name: milad;
-    animation-duration: 50s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    margin-top: 60px;
 }
 
 @keyframes milad {
     0% {
-        border-radius: 3px;
+        border-radius: 50%;
         background-color: green;
     }
 
@@ -68,19 +64,26 @@ body {
 
     100% {
         background-color: green;
-        border-radius: 3px;
-        transform: rotate(360deg);
+        border-radius: 50%;
+        transform: scale3d(1.5, 1.5, 1.5);
 
     }
 }
 
 footer {
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: rgb(155, 161, 149);
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footerelem {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -104,11 +107,11 @@ footer {
 .alist {
 
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .alist:hover {
-    color: aqua;
+    color: rgb(230, 1, 1);
 }
 
 .li {
@@ -121,7 +124,7 @@ footer {
     margin-left: 20px;
     margin-top: 5px;
     font-size: 30px;
-    color: #fff;
+    color: black;
     cursor: pointer;
 }
 
@@ -149,7 +152,9 @@ footer {
 .vast2 {
     width: 100%;
     height: 100%;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -160,15 +165,14 @@ footer {
 
 .tetr-vast2 {
     width: 90%;
-    background-color: #08adb94b;
     padding: 15px;
-    color: #fff;
+    color: #000000;
     text-align: center;
 }
 
 .img {
+    width: 145px;
     border-radius: 50%;
-    margin-top: 20px;
 }
 
 .uoser {
@@ -199,21 +203,27 @@ footer {
 .uoser-img {
     width: 300px;
     height: 450px;
-    background-color: #08adb94b;
+    background-color: #fbfbfb;
     border-radius: 5px;
-    color: #fff;
+    color: black;
     text-align: center;
     align-self: flex-start;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .uoser-text {
     width: 90%;
     height: 500px;
-    background-color: #8f8d8d7e;
+
     padding: 15px;
     text-align: center;
     display: flex;
     align-items: center;
+
 
 }
 
@@ -222,7 +232,7 @@ footer {
 .uoser-text-h2 {
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: black;
     line-height: 2;
 }
 
@@ -232,6 +242,7 @@ footer {
 
 .vast2 .tetr,
 .imjElem {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,12 +260,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     box-shadow: inset 0px 0px 20px 20px #34b8c942;
 }
 
 .img-p {
     width: 250px;
-    margin-top: 20px;
+    margin-top: 25px;
 
 }
 
@@ -311,7 +323,7 @@ footer {
 .t4 {
     width: 35px;
     height: 1px;
-    background-color: #fff;
+    background-color: black;
     margin-top: 6px;
     transition: all 1s;
 }
@@ -335,7 +347,6 @@ footer {
 
 .menoCss {
     width: 100%;
-    /* background-color: rgb(16, 136, 5); */
     position: absolute;
     display: flex;
 }
@@ -345,9 +356,6 @@ footer {
     height: 450px;
 }
 
-.imgRE {
-    margin-top: 10px;
-}
 
 .imj-p {
     margin-top: 15px;
@@ -380,63 +388,197 @@ footer {
     flex-direction: column;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-
-}
-
 .imjm {
     width: 100%;
     height: 600px;
-    animation-name: uoserimg;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    /* border-radius: 5px; */
+
 }
 
-@keyframes uoserimg {
-    0% {
-        background: url(/img/at-the-end-of-the-field-the-view-of-the-planets-in-the-sky-among-the-dark-clouds-and-the-filtering-sunlight-wallpaper-2560x1600_7.jpg) no-repeat;
-        background-size: cover;
-    }
+.anmatsonElem {
+    width: 90%;
+    height: 300px;
+    background-color: #eaeceb;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
 
-    25% {
-        background: url(/img/Jowhareh_galleries_4_poster_35665229-5a27-471f-a9fc-3a98b2d83632.jpeg) no-repeat;
-        background-size: cover;
+.animatsonHP {
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.animatsonTransform-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #d3d4d8;
+    border-radius: 50px;
+    animation-name: leftName;
+    animation-duration: 3s;
+    position: relative;
+    left: 100px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.spanLeft {
+    width: 10px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(2, 2, 2);
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+
+.spanAnimatson {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: spanA;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+.bootomA {
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.bootomA:hover {
+    background-color: #04db6f;
+}
+
+@keyframes spanA {
+    0% {
+        top: -15px;
     }
 
     50% {
-        background: url(/img/night-view-of-yellow-black-clouds-that-seem-to-touch-the-ground-beyond-the-grass-field-wallpaper-2880x1800_8.jpg) no-repeat;
-        background-size: cover;
+        top: 0px;
     }
 
     75% {
-        background: url(/img/planet-and-silhouette-sci-fi-landscape-wallpaper-1280x768_13.jpg) no-repeat;
-        background-size: cover;
+        bottom: 0px;
     }
 
     100% {
-        background: url(/img/scattered-cloudy-sky-snowy-mountains-and-forests-reflection-in-the-magnificent-natural-landscape-wallpaper-2880x1800_8.jpg) no-repeat;
-        background-size: cover;
+        bottom: 8px;
     }
 }
 
+@keyframes leftName {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 100px;
+        transform: rotate(360deg);
+    }
+}
+
+.animatsonTransform-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #d3d4d8;
+    border-radius: 50px;
+    animation-name: rightName;
+    animation-duration: 3s;
+    position: relative;
+    right: 100px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.follow {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: all 1s;
+    border: 1px solid;
+}
+
+.follow:hover {
+    background-color: #04db6f;
+    cursor: pointer;
+}
+
+@keyframes rightName {
+    0% {
+        right: 0px;
+    }
+
+    100% {
+        right: 100px;
+        transform: rotate(-360deg);
+    }
+}
+
+/* 
+@keyframes uoserimg {
+    0% {
+        background-color: #fff;
 
 
+    }
+
+    50% {
+        
+        background-color: #e9e8e8;
+
+    }
+
+    100% {
+        
+        background-color: #c4c3c3;
 
 
+    }
 
-
-
+} */
 
 
 @media screen and (max-width: 600px) {
 
     .listMeno {
         display: none;
+    }
+
+    .uoserimg {
+        width: 300px;
+        height: 450px;
+        background-color: #dad5d2;
+        border-radius: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .t,
@@ -466,7 +608,6 @@ footer {
         align-items: center;
         overflow-wrap: break-word;
         word-break: keep-all;
-        /* background-color: forestgreen; */
         margin-left: 7px;
     }
 
@@ -477,7 +618,6 @@ footer {
         text-align: center;
         overflow-wrap: break-word;
         word-break: break-all;
-        /* background-color: brown; */
         line-height: 6mm;
     }
 
@@ -497,5 +637,130 @@ footer {
         position: inherit;
     }
 
+    .anmatsonElem {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .animatsonHP{
+        width: 300px;
+    }
 
+    .animatsonTransform-2 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: inherit;
+        margin-top: 20px;
+        animation: none;
+    }
+
+    .animatsonTransform-1 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: inherit;
+        animation: none;
+        order: 1;
+        margin-top: 10px;
+
+    }
+
+    .p-animatson {
+        width: 300px;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .anmatsonElem{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .animatsonHP {
+        width: 190px;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .animatsonTransform-2 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        position: inherit;
+        margin-top: 20px;
+        animation: none;
+    }
+
+    .animatsonTransform-1 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        position: inherit;
+        animation: none;
+
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .animatsonTransform-2 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        position: inherit;
+        margin-top: 0px;
+    }
+
+    .animatsonTransform-1 {
+        width: 200px;
+        height: 300px;
+        background-color: #d3d4d8;
+        border-radius: 50px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        position: inherit;
+
+    }
 }
